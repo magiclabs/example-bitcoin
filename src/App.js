@@ -8,6 +8,7 @@ const magic = new Magic('pk_test_E52D701487E9A4DA', {
     extensions: [
         new BitcoinExtension({
             rpcUrl: 'BTC_RPC_NODE_URL',
+            network: 'testnet'
         }),
     ]});
 
