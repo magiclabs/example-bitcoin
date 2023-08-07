@@ -4,7 +4,7 @@ import { Magic } from "magic-sdk";
 import { BitcoinExtension } from "@magic-ext/bitcoin";
 import * as bitcoin from "bitcoinjs-lib";
 
-const magic = new Magic("pk_live_8D40A7E251F283ED", {
+const magic = new Magic("pk_live_99DDD0687C146843", {
   extensions: [
     new BitcoinExtension({
       rpcUrl: "BTC_RPC_NODE_URL",
