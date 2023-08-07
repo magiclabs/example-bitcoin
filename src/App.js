@@ -52,7 +52,7 @@ export default function App() {
     const tx = new bitcoin.TransactionBuilder(TESTNET);
     tx.addInput(inputTxHash, 0);
 
-    tx.addOutput(destinationAddress, sendAmount);
+    tx.addOutput(destinationAddress, Number(sendAmount));
 
     const txHex = tx.buildIncomplete().toHex();
 
